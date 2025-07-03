@@ -5,6 +5,10 @@ This repository contains entry to mid level Bash Scripting. I will share the scr
 
 My LinkedIn profile: linkedin.com/in/faisalkhan131
 
+*If you want to know and learn more about the basics of Bash from a video tutorial, then you can follow this amazing 48 min tutorial by freeCodeCamp that pretty much covers basic Bash. Tutorial Link:*
+
+**https://youtu.be/tK9Oc6AEnR4?si=nESGdurXO0DT2YrZ**
+
 
 **IMPORTANT: Note that most of these files do not contain rm commands (linux equivalent of shift + delete) inside them so you are good to run them at any given directory. However, later ones may contain rm command so it is still recommended that you read the file via cat or vi or any text editor before executing.
 
