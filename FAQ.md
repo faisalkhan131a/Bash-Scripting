@@ -13,7 +13,7 @@ FREQUENTLY ASKED BEGINNER QUESTIONS and ANSWERS regarding Bash
 
 
 
->> You may have noticed, all or most the bash files start with this line in the start- '#!/bin/bash'. This line is known as 'Shebang' and it explicitly tells the system which shell to use to run this file, in our case that is the Bash shell located at /bin/bash direcotry in the linux system. If you don't use this line, then the file will still be executed but by the default interpreter set for the system, which can depend on your system/server configration.
+> You may have noticed, all or most the bash files start with this line in the start- '#!/bin/bash'. This line is known as 'Shebang' and it explicitly tells the system which shell to use to run this file, in our case that is the Bash shell located at /bin/bash direcotry in the linux system. If you don't use this line, then the file will still be executed but by the default interpreter set for the system, which can depend on your system/server configration.
 
 
 
@@ -28,7 +28,7 @@ FREQUENTLY ASKED BEGINNER QUESTIONS and ANSWERS regarding Bash
 
 
 
->> Another common query is how to run a bash file in a Linux system. There 3 commonly used ways to run a bash script file. They are as follows:
+> Another common query is how to run a bash file in a Linux system. There 3 commonly used ways to run a bash script file. They are as follows:
 
 
 
