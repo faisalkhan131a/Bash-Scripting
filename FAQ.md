@@ -26,7 +26,9 @@ Another common query is how to run a bash file in a Linux system. There 3 common
 
 
 vi filename.sh (write anything)
+
 chmod u+x filename.sh 
+
 ./filename.sh
 
 
@@ -36,6 +38,7 @@ chmod u+x filename.sh
 
 
 vi filename.sh (write anything)
+
 bash filename.sh
 
 
@@ -45,6 +48,7 @@ bash filename.sh
 
 
 vi filename.sh (write anything)
+
 sh filename.sh
 
 
