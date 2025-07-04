@@ -10,7 +10,7 @@ My LinkedIn profile: linkedin.com/in/faisalkhan131
 **https://youtu.be/tK9Oc6AEnR4?si=nESGdurXO0DT2YrZ**
 
 
-**IMPORTANT: Note that most of these files do not contain rm commands (linux equivalent of shift + delete) inside them so you are good to run them at any given directory. However, later ones may contain rm command so it is still recommended that you read the file via cat or vi or any text editor before executing.
+**IMPORTANT: Note that most of these files do not contain rm commands (linux equivalent of shift + delete) inside them so you are good to run them at any given directory. However, later ones may contain rm command so it is **recommended** that you take a look at the code before executing.
 
 
 Thank you if you have taken your time to read this readme file. Happy Scripting!
