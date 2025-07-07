@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # taking user input
 # here read is used to take input from user and store the value into the 'game' and 'time' variable.
 
