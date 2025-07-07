@@ -18,5 +18,5 @@ echo "No idea what you are doing? Yep, we have all been there :) "
 else 
 echo "Looks like you are lost. Better look at the map then ;)"
 
-#fi marks the end of the if else loop. fi is if but backwards ;)
+# fi marks the end of the if else loop. fi is if but backwards ;)
 fi
