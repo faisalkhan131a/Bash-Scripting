@@ -1,6 +1,6 @@
 #!/bin/bash
 # taking user input
-# 'game' and 'time' are variables. read is used to take input from user and store the input into the 'game' and 'time' variables.
+# here read is used to take input from user and store the value into the 'game' and 'time' variable.
 
 echo What game are you playing?
 read game
