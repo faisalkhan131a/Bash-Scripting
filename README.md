@@ -1,7 +1,7 @@
 # Bash-Scripting
 Entry to mid level Bash Scripting. Lets utilize the power of Bash and see how far we can get ;)
 
-This repository contains entry to mid level Bash Scripting. I will share the script files (with .sh extension) here so that you can just run it in your system or server if you want to. We will start with basics and small chunks of code and gruadually move towards bigger tasks where we combine what we have learned before to achieve our desired end results. I have tried to include comments (starts with #) inside code blocks in the files so that you can understand what variable, function or method is used for what purpose. It is not all properly done, but I am working on it as we speak ;) I am still quite unfamiliar with GitHub and it's functions so the best way to reach me (if you want to) would be through LinkedIn. 
+This repository contains entry to mid level Bash Scripting. At this moment, the repository contains only the Practice directory with more to be added in near future. The Practice directory contains some of the basic bash concepts for practice and understanding of the bash syntax. I have tried to include comments (starts with #) inside code blocks in the files so that you can understand what variable, function or method is used for what purpose. It is not all properly done, but I am working on it as we speak. If you have any question or want to reach me, the best way would be through linkedin as I am still in the 'figuring out' phase of using github.
 
 My LinkedIn profile: linkedin.com/in/faisalkhan131
 
