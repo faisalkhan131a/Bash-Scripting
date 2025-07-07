@@ -23,7 +23,7 @@ It has been running since ${since}
 EOF
 }
 
-# In the end, we have called the funtion for execution.
+# in the end, we have called the funtion for execution.
 
 Showuptime
 
