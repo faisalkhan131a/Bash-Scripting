@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # if/else loop inside a function. 
-# we need to pass an input while executing this file. The value will be stored in $1. 
-#Execute the file like this- bash filename.sh user
+# we need to pass an input while executing this file. The value will be stored in $1. Execute the file like this- bash filename.sh user
 
 Showname(){
 
