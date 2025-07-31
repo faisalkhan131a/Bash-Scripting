@@ -21,7 +21,7 @@ You don't need to provide any other permission or make the file executable. Just
 This script is designed to extract certain command outputs and then display them in login banner. Before displaying, the command outputs are evaluated via an if-else loop and based on the margin, assigned one of the three colors- green, yellow and red. Red indicates that a certain module has crossed the critical margin, yellow indicating that module is close to a critical point and green indicating module stability for the time being. Summary explanation of the code structure is given below:
 
 
-1. #!bin/bash -> known as shebang, tells OS to run this script using Bash
+1. shebang -> #!bin/bash - tells OS to run this script using Bash.
 
 2. Color codes -> These are ANSI color codes to colorize command ouputs. reset is used to restore terminal color to default.
 
@@ -36,7 +36,7 @@ This script is designed to extract certain command outputs and then display them
 
 This is pretty much how the script works. Although I had to make minor changes to make the script cleaner and more readable, this is still a entry level banner. I have added comments in the bash file itself so that it is easier to understand. The script itself is stable but it can be optimized fruther. So any opinions or suggestion regarding optimization or enhancement is welcome. Don't hesitate to reach out to me if you feel so (linkedin would be recommended).
 
-*My LinkedIn profile: linkedin.com/in/faisalkhan131
+*My LinkedIn profile: linkedin.com/in/faisalkhan131*
 
 
 ## Note to reader : This script only prints Disk Usage, CPU Usage, WA value, Load Average and System Uptime. You can modify this script according to your need and add or replace the parameters that you need.
