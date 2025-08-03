@@ -21,17 +21,17 @@ You don't need to provide any other permission or make the file executable. Just
 This script is designed to extract certain command outputs and then display them in login banner. Before displaying, the command outputs are evaluated via an if-else loop and based on the margin, assigned one of the three colors- green, yellow and red. Red indicates that a certain module has crossed the critical margin, yellow indicating that module is close to a critical point and green indicating module stability for the time being. Summary explanation of the code structure is given below:
 
 
-1. shebang -> #!bin/bash - tells OS to run this script using Bash.
+1. Shebang -> #!bin/bash - tells OS to run this script using Bash.
 
 2. Color codes -> These are ANSI color codes to colorize command ouputs. reset is used to restore terminal color to default.
 
-3. color function -> The color() function is used to compare command ouputs. The if-else loop compares the output and colorizes it according to the threshold it falls under. Threshold for each variable/command output is mentioned in the later part of the code.
+3. Color function -> The color() function is used to compare command ouputs. The if-else loop compares the output and colorizes it according to the threshold it falls under. Threshold for each variable/command output is mentioned in the later part of the code.
 
-4. command substitution -> Command substitution is used to extract values from other command outputs. All of the system data is extracted using command substitution.
+4. Command substitution -> Command substitution is used to extract values from other command outputs. All of the system data is extracted using command substitution.
 
-5. defining thresholds -> Then thresholds for the red and yellow were declared for all variables using command substitution.
+5. Defining thresholds -> Then thresholds for the red and yellow were declared for all variables using command substitution.
 
-6. banner output -> In the end, a display banner was designed using echo command to display the data in a predefined format.
+6. Banner output -> In the end, a display banner was designed using echo command to display the data in a predefined format.
 
 
 This is pretty much how the script works. Although I had to make minor changes to make the script cleaner and more readable, this is still a entry level banner. I have added comments in the bash file itself so that it is easier to understand. The script itself is stable but it can be optimized fruther. So any opinions or suggestion regarding optimization or enhancement is welcome. Don't hesitate to reach out to me if you feel so (linkedin would be recommended).
