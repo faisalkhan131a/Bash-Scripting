@@ -39,7 +39,7 @@ This is pretty much how the script works. Although I had to make minor changes t
 *My LinkedIn profile: linkedin.com/in/faisalkhan131*
 
 
-## Note to reader : This script only prints Disk Usage, CPU Usage, WA value, Load Average and System Uptime. You can modify this script according to your need and add or replace the parameters that you need.
+**Note to reader :** This script only prints Disk Usage, CPU Usage, WA value, Load Average and System Uptime. You can modify this script according to your need and add or replace the parameters that you need.
 
 
 
