@@ -17,8 +17,21 @@ Our goal in this script is to extract some service-related information from the 
 
 ## Tasks
 
+As the name suggests this is a monitoring script which when executed, will print some necessary information about Application 1 and Module 1 and their usage of server side resources. It will also print some basic server side statistics which were captured at the moment of script execution. The tasks performed by the script is as follows-
+
+1. Shows CPU usage at the moment of script execution
+2. Shows Hrad Disk usage at the moment of script execution
+3. Shows Free, Used and Total memory of the server.
+4. Shows server uptime.
+5. Shows Application 1 memory usage and process uptime (in days).
+6. Shows Module 1 memory usage and process uptime (in days).
+7. Shows Apache Tomcat web container memory usage and process uptime (in days).
+8. Shows active MySQL processes and query processing time for our query.
+9. Shows CPU usage of the MySQL process.
+10. Runs MySQL queries and shows the result of the queries.
 
 
+**Need to add more details here.**
 
 
 This is pretty much how the script works. Although I had to make minor changes to make the script cleaner and more readable, this is still a entry level banner. I have added comments in the bash file itself so that it is easier to understand. The script itself is stable but it can be optimized fruther. So any opinions or suggestion regarding optimization or enhancement is welcome. Don't hesitate to reach out to me if you feel so (linkedin would be recommended).
