@@ -1,1 +1,33 @@
+Hello all, welcome back once again to Bash!
+
+The script I am sharing today is slightly different than the previous scripts. Unlike the previous ones, this script was designed to automate some tasks of my current employer. So it is not something that you can just deploy or use directly. However, this script was written utilizing a lot of command line tools. It performs various types of operations including extracting output from MySQL database. The goal behind sharing this script is to show you the command line utilities I have used and to demonstrate the versitility of Bash. And in order to do that, let me describe the Environment for which this script was designed for and the Tasks this script can perform. Details are shared below.
+
+## Environment 
+
+This script was designed for CentOS 7 servers where some specific services are running. Let's assume the key services are called Appilcation 1 and Module 1. We will also work with MySQL 8 DBMS and Apache Tomcat web container used for Java based web applications. So the environment has the following entities-
+
+1. OS- Linux CentOS 7
+2. DBMS- MySQL 8
+3. Web- Apache Tomcat
+4. Services- Application 1
+5. Services- Module 1
+
+Our goal in this script is to extract some service-related information from the Application 1 and Module 1 directories as well as gather information about the utilization of server side resources by said Application and Module. The Tasks that are performed by the script can be found below.
+
+
+## Tasks
+
+
+
+
+
+This is pretty much how the script works. Although I had to make minor changes to make the script cleaner and more readable, this is still a entry level banner. I have added comments in the bash file itself so that it is easier to understand. The script itself is stable but it can be optimized fruther. So any opinions or suggestion regarding optimization or enhancement is welcome. Don't hesitate to reach out to me if you feel so (linkedin would be recommended).
+
+*My LinkedIn profile: linkedin.com/in/faisalkhan131*
+
+
+**Note to reader :** This script only prints Disk Usage, CPU Usage, WA value, Load Average and System Uptime. You can modify this script according to your need and add or replace the parameters that you need.
+
+
+
 
