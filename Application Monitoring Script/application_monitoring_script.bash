@@ -13,7 +13,7 @@ cd /usr/local/$switch_folder
 run=$(grep -o -- '-Xmx[^ ]*' run*.sh | tr -cd '0-9')
 
 # this also searches for a specific string in a certain file. If such file is found then it prints the second and third non-empty line. 
-# inside those lines, it looks for specific string patterns and stores upto 70 characters inside the variable.
+# inside those lines, it looks for specific string patterns and stores upto 200 characters inside the variable.
 
 process_SMS_Server=$(
     awk 'NF {count++; if (count==2) {line=$0; getline nextline; print line nextline; exit}}' run*.sh \
