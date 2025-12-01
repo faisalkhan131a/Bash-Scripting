@@ -54,7 +54,7 @@ The next part sends the $run variable to an ef/else loop to process the amount o
 
 Since the script already has database information from Application 1, it will not repeat the same process for Module 1. 
 
-This concludes Tasks of Block 1.
+This concludes tasks of Block 1.
 
 
 ## BLOCK 2 - Defining date and running the MySQL query
@@ -79,7 +79,7 @@ The next line of code generates $count variable i times to store the output of e
 
 In the end, output of all 7 iterations (all 7 $count variables) is added via arithmatic operation and the result is stored within the $last_week_usage variable.
 
-This concules the task of Block-2.
+This concludes tasks of Block-2.
 
 
 # NEED TO ADD A FEW LINES REGARDING THE USE OF AI IN THIS SCRIPT AND HOW THEY HELPED ME
