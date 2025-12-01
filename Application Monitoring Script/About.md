@@ -31,7 +31,13 @@ As the name suggests this is a monitoring script which when executed, will print
 10. Runs MySQL queries and shows the result of the queries.
 
 
-**Need to add more details here.**
+For the ease of understanding, I have divided the bash script into 4 Blocks and provided comments inside the script file to explain the purpose of the written code. Let me summarize the tasks of each Blocks down below.
+
+# BLOCK 1 - Extracting Application and Module Info
+
+This block goes to the target directory where the application folder is stored which in our case is /usr/local. Then it asks the user to select the folder for Application 1. After that, the script automatically searches for a specific set of string starting with '-Xmx' inside a file called execute.sh or execute*.sh, whichever is found (the chances of finding both are 0% in our case). Then it removes everything apart from numerics and then stores it inside $run variable.
+
+Next, the script again looks inside execute.sh or execute*.sh file for another specific string '/usr.*' and if a match is found, then extracts the second and third non-empty lines upto 200 characters in length. Then it further filters the extracted lines by removing double backslashes '\\' and removing double spaces in between along with some additional tuning. Then it stores the end result iside $process_of_Application_1 variable.
 
 
 This is pretty much how the script works. Although I had to make minor changes to make the script cleaner and more readable, this is still a entry level banner. I have added comments in the bash file itself so that it is easier to understand. The script itself is stable but it can be optimized fruther. So any opinions or suggestion regarding optimization or enhancement is welcome. Don't hesitate to reach out to me if you feel so (linkedin would be recommended).
