@@ -102,8 +102,12 @@ This concludes the tasks of Block-3.
 
 ## BLOCK 4 - Printing the collected info into the terminal
 
+This is the final part of this script. The goal of this part is to print all the information collected so far in terminal in a predefined format. Echo command is used to print the text lines into the terminal so that user can just select and copy it from the terminal and use it anywhere they want.
 
-# NEED TO ADD A FEW LINES REGARDING THE USE OF AI IN THIS SCRIPT AND HOW THEY HELPED ME
+This concludes Block-4 and marks the end of Tasks performed by the script. Script will exit now.
+
+
+## *Few Words About the Script* ##
 
 
 This is pretty much how the script works. Although I had to make minor changes to make the script cleaner and more readable, this is still a entry level banner. I have added comments in the bash file itself so that it is easier to understand. The script itself is stable but it can be optimized fruther. So any opinions or suggestion regarding optimization or enhancement is welcome. Don't hesitate to reach out to me if you feel so (linkedin would be recommended).
