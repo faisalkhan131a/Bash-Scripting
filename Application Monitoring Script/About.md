@@ -114,6 +114,7 @@ The script was mainly written to automate a data collection process in the form 
 If you have any question or query, don't hesitate to reach out to me.
 
 *My LinkedIn profile: linkedin.com/in/faisalkhan131*  (recommneded for faster response)
+
 Email: faisalkhan131a@gmail.com  
 
 
