@@ -76,10 +76,31 @@ The expected query output is numbers (normal for a count statement). So to optim
 
 The next line of code generates $count variable i times to store the output of each iteration (here number of ierations is i).
 
-
 In the end, output of all 7 iterations (all 7 $count variables) is added via arithmatic operation and the result is stored within the $last_week_usage variable.
 
 This concludes tasks of Block-2.
+
+
+## BLOCK 3- Extracting server resource utilization info
+
+The goal of this code block is to extract and store two types of resource utilization information. The first type being the resources consumed by Application 1 and Module 1 at the time of running this script and the later being overall resource consumption of the server itself.
+
+The first segment of code extracts virtual memory (VIRT) and physical memory (RES) usage of Application 1, Module 1 and the Tomcat process. These values are stored into their designated variables for later use.
+
+The next part extracts CPU and memory related information. It collects overall server CPU usage, mysql process CPU usage, number of cores in CPU and amount of memory available as well amount of memory used as of the moment. These information are also stored into their designated variables for later use.
+
+Next part will calculate uptime of current Application 1, Module 1 and Tomcat process. This was done by defining today's date in $now_epoch variable and storing the last process boot time into $start_epoch variables. After that, $start_epoch variable was subtracted from $now_epoch variable and divided by 86400 which provided the total process running time in terms of days. The primary reason of extracting and calculating process uptime is to give the user idea about how long these processes has been running for or when were they last restarted.
+
+The next segment gathers some additional information regarding server uptime, MySQL processlist, HDD usage of root (/) partition. These information gives an overall idea of current server health and resource utilization.
+
+The last part of Block-3 gathers data about MySQL. It mainly calculates how long a query has taken to execute in current system. This is done by storing current time in $start_time variable and then executing a query. After query execution is finished, the script captures the current time again in $end_time variable. It then extracts $start_time from $end_time to get query processing time. This part gives an idea about the current state of the database system.
+
+Then the script will run a SHOW PROCESSLIST query to extract the 'State' column to check what operation hte MySQL thread is currently involved with. Lastly, the script will execute a for loop to check whther any Table Lock is found in the 'State' column. 
+
+This concludes the tasks of Block-3.
+
+
+## BLOCK 4 - Printing the collected info into the terminal
 
 
 # NEED TO ADD A FEW LINES REGARDING THE USE OF AI IN THIS SCRIPT AND HOW THEY HELPED ME
