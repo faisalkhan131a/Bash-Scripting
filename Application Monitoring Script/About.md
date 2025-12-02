@@ -1,6 +1,6 @@
 Hello all, welcome back once again to Bash!
 
-The script I am sharing today is slightly different than the previous scripts. Unlike the previous ones, this script was designed to automate some tasks of my current employer. So it is not something that you can just deploy or use directly. However, this script was written utilizing a lot of command line tools. It performs various types of operations including extracting output from MySQL database. The goal behind sharing this script is to show you the command line utilities I have used and to demonstrate the versitility of Bash. And in order to do that, let me describe the Environment for which this script was designed for and the Tasks this script can perform. Details are shared below.
+The script I am sharing today is slightly different than the previous scripts. Unlike the previous ones, this script was designed to automate some tasks of my current employer. Specifically, this script was designed to collect data about some services running in the server and the resources utilized by those said services. If done manually, collecting those data will take around 10-15 minutes per server. Using this script the same data can be collected within 10-15 seconds. This script was written utilizing a lot of command line tools. Although this is not a script you can just modify and reuse, this script will give you idea about the tasks that can be automated using Bash. The primary goal behind sharing this script is to show you the command line utilities I have used as well as the degree of versitility offered by Bash. And in order to do just that, I am dividing this documentation into 2 main parts- Environment and Tasks. Environment will describe the system environment, dependencies and services upon which this script will be executed and Tasks will describe the tasks this script will perform. Further details are shared below.
 
 # Environment 
 
@@ -17,18 +17,18 @@ Our goal in this script is to extract some service-related information from the 
 
 # Tasks
 
-As the name suggests this is a monitoring script which when executed, will print some necessary information about Application 1 and Module 1 and their usage of server side resources. It will also print some basic server side statistics which were captured at the moment of script execution. The tasks performed by the script is as follows-
+As the name suggests this is a monitoring script which when executed, will print some necessary information about Application 1 and Module 1 and their usage of server side resources. It will also print some basic server side statistics which were captured at the moment of script execution. Goals of this script are as follows-
 
-1. Shows CPU usage at the moment of script execution
-2. Shows Hrad Disk usage at the moment of script execution
-3. Shows Free, Used and Total memory of the server.
-4. Shows server uptime.
-5. Shows Application 1 memory usage and process uptime (in days).
-6. Shows Module 1 memory usage and process uptime (in days).
-7. Shows Apache Tomcat web container memory usage and process uptime (in days).
-8. Shows active MySQL processes and query processing time for our query.
-9. Shows CPU usage of the MySQL process.
-10. Runs MySQL queries and shows the result of the queries.
+1. Show CPU usage at the moment of script execution
+2. Show Hrad Disk usage at the moment of script execution
+3. Show Free, Used and Total memory of the server.
+4. Show server uptime.
+5. Show Application 1 memory usage and process uptime (in days).
+6. Show Module 1 memory usage and process uptime (in days).
+7. Show Apache Tomcat web container memory usage and process uptime (in days).
+8. Show active MySQL processes and query processing time for our query.
+9. Show CPU usage of the MySQL process.
+10. Run MySQL queries and shows the result of the queries.
 
 
 For the ease of understanding, I have divided the bash script into 4 Blocks and provided comments inside the script file to explain the purpose of the written code. Let me summarize the tasks of each Blocks down below.
@@ -109,13 +109,12 @@ This concludes Block-4 and marks the end of Tasks performed by the script. Scrip
 
 ## *Few Words About the Script* ##
 
+The script was mainly written to automate a data collection process in the form of a report which if done manually, would take at least 10-15 minutes. Using this script the same goal can be achieved within 10-15 seconds or less. Mathematically the script proved to be a staggering 98% faster than the manual method in completing the report. However this is pretty complicated script and writing and testing it took a very good amount of time. The degree of flags used in this script is beyond my current expertise and I had to seek extensive assistance from AI (namely chatGPT) to achieve my goals in shorter amount of time. Unfortunately, one of my colleagues have already made a script for this same report and his script his more detailed and comprehensive than mine. While I am happy for the time I have invested in writing this script and the lessons that I learned while doing so, I do not wish to keep working on this script to further optimize and stabilize it. Thank you for your time if you have actually read this documentation till now. It took me almost 2 days to write it, still have not checked the spellings tho :-)
 
-This is pretty much how the script works. Although I had to make minor changes to make the script cleaner and more readable, this is still a entry level banner. I have added comments in the bash file itself so that it is easier to understand. The script itself is stable but it can be optimized fruther. So any opinions or suggestion regarding optimization or enhancement is welcome. Don't hesitate to reach out to me if you feel so (linkedin would be recommended).
+If you have any question or query, don't hesitate to reach out to me.
 
-*My LinkedIn profile: linkedin.com/in/faisalkhan131*
-
-
-**Note to reader :** 
+*My LinkedIn profile: linkedin.com/in/faisalkhan131*  (recommneded for faster response)
+Email: faisalkhan131a@gmail.com  
 
 
 
