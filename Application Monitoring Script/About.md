@@ -20,7 +20,7 @@ Our goal in this script is to extract some service-related information from the 
 As the name suggests this is a monitoring script which when executed, will print some necessary information about Application 1 and Module 1 and their usage of server side resources. It will also print some basic server side statistics which were captured at the moment of script execution. Goals of this script are as follows-
 
 1. Show CPU usage at the moment of script execution
-2. Show Hrad Disk usage at the moment of script execution
+2. Show Hard Disk usage at the moment of script execution
 3. Show Free, Used and Total memory of the server.
 4. Show server uptime.
 5. Show Application 1 memory usage and process uptime (in days).
